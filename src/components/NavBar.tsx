@@ -12,10 +12,11 @@ const NavBar = () => {
     <nav className="nav-bar flex rounded-b-lg items-center gap-3 max-h-16 justify-end min-w-full p-2 px-4">
       <div className="mr-auto flex">
         {/* <img src="/assets/logo.png" alt="Komari Logo" className="w-10 object-cover mr-2 self-center"/> */}
+        <img src="/assets/pulse.png" alt="FrostPeak Logo" className="w-10 object-cover mr-2 self-center"/>
         <Link to="/">
-          <label className="text-3xl font-bold ">{publicInfo?.sitename}</label>
+          <label className="text-2xl  ">{publicInfo?.sitename}</label>
         </Link>
-        <div className="hidden flex-row items-end md:flex">
+        {/* <div className="hidden flex-row items-end md:flex">
           <div
             style={{ color: "var(--accent-3)" }}
             className="border-solid border-r-2 mr-1 mb-1 w-2 h-2/3"
@@ -24,9 +25,9 @@ const NavBar = () => {
             className="text-base font-bold"
             style={{ color: "var(--accent-4)" }}
           >
-            Komari Monitor
+            FrostPeak Pulse
           </label>
-        </div>
+        </div> */}
       </div>
 
       <IconButton

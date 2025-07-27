@@ -1,9 +1,9 @@
 {
-    "name": "Komari Preview",
-    "short": "KomariPreview", 
-    "description": "Preview theme for Komari Monitor",
-    "version": "1.0.0",
-    "author": "Akizon77",
-    "url": "https://github.com/komari-monitor/komari-web",
+    "name": "FrostPeak Pulse",
+    "short": "FrostPeakPulse", 
+    "description": "FrostPeak theme for Monitor",
+    "version": "0.0.1",
+    "author": "Coin-233",
+    "url": "https://github.com/Coin-233/komari-web",
     "preview": "preview.png"
 }
