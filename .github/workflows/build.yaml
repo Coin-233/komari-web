@@ -17,14 +17,14 @@ jobs:
         clean: true
         ref: radix
 
-    - name: Clean output directory
-      run: |
-        rm -rf /opt/komari/data/data/theme/FrostPeakPulse/*
-
     - name: Build project
       run: |
         npm install
         npm run build
+
+    - name: Clean output directory
+      run: |
+        rm -rf /opt/komari/data/data/theme/FrostPeakPulse/*
 
     - name: Copy build output and assets
       run: |
