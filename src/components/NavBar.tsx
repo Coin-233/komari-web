@@ -7,7 +7,7 @@ import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { Link } from "react-router-dom";
 import { usePublicInfo } from "@/contexts/PublicInfoContext";
 const NavBar = () => {
-  const {publicInfo} = usePublicInfo();
+  // const {publicInfo} = usePublicInfo();
   return (
     <nav className="nav-bar flex rounded-b-lg items-center gap-3 max-h-16 justify-end min-w-full p-2 px-4">
       <div className="mr-auto flex">
