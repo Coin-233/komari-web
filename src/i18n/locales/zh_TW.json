@@ -276,7 +276,7 @@
     "showAll": "顯示全部",
     "hideAll": "隱藏全部"
   },
-  "home_title": "Komari Monitor",
+  "home_title": "",
   "admin": {
     "nodeTable": {
       "nodeList": "節點列表",

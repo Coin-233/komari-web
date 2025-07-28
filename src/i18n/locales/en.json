@@ -276,7 +276,7 @@
     "showAll": "Show All",
     "hideAll": "Hide All"
   },
-  "home_title": "Komari Monitor",
+  "home_title": "",
   "admin": {
     "nodeTable": {
       "nodeList": "Node list",
@@ -522,7 +522,7 @@
     "can_install": "Can Install",
     "install": "Install",
     "install_prompt_desc": "Add to home screen for quick access",
-    "install_prompt_title": "Install Komari Monitor",
+    "install_prompt_title": "Install ",
     "install_status": "Install Status",
     "installed": "Installed",
     "network_status": "Network Status",
